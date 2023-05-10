@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #dfe7f7;
+  overflow:auto;
+}
+
+.navibar-link-container {
+  /* border: 2px solid #ff0000; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.logo a {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-part ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-part ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+.link-part ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.link-part ul li a:hover {
+  text-decoration: underline;
+  color: #178b7e;
+}
+
+.search-part > input {
+  padding: 5px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.searchButton {
+  padding: 6px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #178b7e;
+  border: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  width: 79px;
+  border-radius: 5px;
+  margin-left: 5px;
+ 
+}
+.searchButton:hover{
+  background-color: transparent;
+  border: 2px solid #178b7e;
+  border-radius: 5px;
+  color: black ;
+}
+
+/* main section  */
+
+.Hero-section{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 55px;
+
+}
+
+.left-side-of-hero-section > p{
+          margin-top: 10px;
+         
+
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.heading span{
+       font-size: 2.5rem;
+       color:#178b7e ;
+       background-color: #d4d4d4;
+       
+}
+
+.heading2{
+    font-size: 1.3rem;
+}
+.heading2 > span{
+  font-weight: 800;
+    color: #178b7e ;
+}
+
+.person-image{
+  margin: 35px;
+}
+.person-image >img {
+     width: 25vw;
+     height: 40vh;
+     border-radius: 25px;
+}
+.chatbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  
+}
+.chatbutton > button{
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.chatbutton > button:hover{
+  background-color: transparent;
+  border: 2px solid #178b7e;
+  border-radius: 5px;
+  color: black ;
+}
+.chatbutton >button{
+  color:#fff;
+  background-color: #178b7e;
+  font-size: 16px;
+  padding: 7px 12px 7px 12px;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* footer */
+.footer-part{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     padding: 10px;
+     margin-top: 50px;
+}
+
+.footer-left-part >p{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.icon-container ul i{
+     font-size: 2rem;
+     padding: 10px;
+     margin: 5px;
+     color: black;
+     transition: font-size 1s;
+     transition-delay: 0.2s;
+     transition-timing-function: ease-in-out;
+}
+
+.icon-container ul i:hover{
+     font-size: 1rem;
+}
